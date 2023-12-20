@@ -28,6 +28,10 @@ body {
   border: 1px solid #ccc;
 }
 
+.white.active {
+  background-color: #ccc;
+}
+
 .black {
   width: 8%;
   height: 45%;
@@ -35,4 +39,8 @@ body {
   margin-right: -4%;
   z-index: 2;
   background-color: black;
+}
+
+.black.active {
+  background-color: #333;
 }
